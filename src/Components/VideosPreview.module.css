@@ -1,0 +1,337 @@
+.corpoTextoVideos {
+    position: fixed;
+    width: 700px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.891);
+    text-align: center;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.nome_Videos {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.especialidadeVideos {
+    font-size: 42px;
+    margin-top: 0;
+    font-weight: 450;
+    margin-bottom: 15px
+}
+.subtitulo_Videos{
+    font-size: 30px;
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.imagemVideos {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.sobre_mimVideos {
+    font-size: 47px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+.paragrafoVideos{
+    font-size: 34px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.paragrafoVideos2{
+    width: 100%;
+    font-size: 34px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.linhaVideos{
+    border: 1px solid rgb(119, 119, 119);
+    margin: 0;
+    margin-top: 40px;
+}
+
+.fecharVideos{
+    background-color: rgba(47, 142, 142, 1);
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 0px 30px 0px 30px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.5s;
+}
+.fecharVideos:hover{
+    color: rgba(47, 142, 142, 1);
+    border-radius: 30px 0px 30px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+.agendarVideos{
+    background-color: rgba(47, 142, 142, 1);
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+    width: 355px;
+    border-radius: 30px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.5s;
+    clear: both;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.agendarVideos:hover{
+    color: rgba(47, 142, 142, 1);
+    border-radius: 30px 30px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    transform: scale(1.0.7);
+}
+
+.meusVideosVideos{
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.meusVideosDivVideos{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(193, 217, 214, 1);
+    clear: both;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+video{
+    width: 600px;
+}
+
+.corpoTextoVideos {
+    position: fixed;
+    width: 700px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.891);
+    text-align: center;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.nome_Videos {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.especialidadeVideos {
+    font-size: 42px;
+    margin-top: 0;
+    font-weight: 450;
+    margin-bottom: 15px
+}
+.subtitulo_Videos{
+    font-size: 30px;
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.imagemVideos {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.sobre_mimVideos {
+    font-size: 47px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+.paragrafoVideos{
+    font-size: 34px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.paragrafoVideos2{
+    width: 100%;
+    font-size: 34px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.linhaVideos{
+    border: 1px solid rgb(119, 119, 119);
+    margin: 0;
+    margin-top: 40px;
+}
+
+.fecharVideos{
+    background-color: rgba(47, 142, 142, 1);
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 0px 30px 0px 30px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.5s;
+}
+.fecharVideos:hover{
+    color: rgba(47, 142, 142, 1);
+    border-radius: 30px 0px 30px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+.agendarVideos{
+    background-color: rgba(47, 142, 142, 1);
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+    width: 355px;
+    border-radius: 30px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.5s;
+    clear: both;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.agendarVideos:hover{
+    color: rgba(47, 142, 142, 1);
+    border-radius: 30px 30px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    transform: scale(1.0.7);
+}
+
+.meusVideosVideos{
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.meusVideosDivVideos{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(193, 217, 214, 1);
+    clear: both;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+ @media only screen and (min-width: 360px) and (max-width: 428px){
+    .corpoTextoVideos {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        padding-left: 30%;
+        padding-right: 0px;
+    }
+    
+    .nome_Videos {
+        font-size: 22px;
+    }
+    
+    .especialidadeVideos {
+        font-size: 18px;
+        margin-top: 0;
+        font-weight: 450;
+        margin-bottom: 15px
+    }
+    .subtitulo_Videos{
+        font-size: 18px;
+        clear: both;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .imagemVideos {
+        width: 80%;
+        height: 300px;
+    }
+    
+    .sobre_mimVideos {
+        font-size: 22px;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 0;
+        margin-top: 18px;
+    }
+
+    .paragrafoVideos{
+        font-size: 14px;
+    }
+    
+    .linhaVideos{
+        border: 1px solid rgb(119, 119, 119);
+        margin: 0;
+        margin-top: 40px;
+    }
+    
+    .fecharVideos{
+        background-color: rgba(47, 142, 142, 1);
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .agendarVideos{
+        background-color: rgba(47, 142, 142, 1);
+        font-size: 27px;
+    }
+    
+    .meusVideosVideos{
+        display: flex;
+        flex-wrap: wrap;
+        clear: both;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 80px;
+    }
+ }

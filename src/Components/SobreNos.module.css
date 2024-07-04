@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+
+
+.parte1 {
+    background-color: rgba(193, 217, 214, 1);
+    width: 100%;
+    min-height: 480px;
+    height: auto;
+    justify-content: space-between;
+    display: flex;   
+    text-align: center;
+}
+
+.parte1 h3 {
+    font-family: 'Poppins';
+    font-size: 58px;
+    color: rgba(18, 113, 84, 1);
+}
+
+.parte1 p {
+    width: auto;
+    font-size: 25px;
+    
+}
+
+.parte1Direita {
+    width: 50%;
+    height: 100%;
+}
+
+.parte1Esquerda {
+    width: 40%;
+    height: 100%;
+}
+
+.parte1Esquerda a {
+    clear: both;
+    display: block;
+    margin-left: 40px;
+    font-size: 40px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    background-color: rgba(47, 142, 142, 1);
+    border-radius: 0px 40px 40px 40px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+.parte1Esquerda a:hover {
+    border: 5px solid rgba(47, 142, 142, 1);
+    background-color: rgba(193, 217, 214, 1);
+    border-radius: 0px 40px 40px 40px;
+    width: 90%;
+    text-align: center;
+    color: rgba(47, 142, 142, 1);
+    transition: all 1s;
+}
+
+
+
+
+
+
+.parte2 {
+    background-color: rgba(242, 255, 250, 1);
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+.parte2Esquerda {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.parte2Direita img{
+    width: 50%;
+    height: 90%;
+    float: left;
+}
+
+.parte2 h3{
+    color: rgba(18, 113, 84, 1);
+    font-size: 64px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.parte2 p{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 28px;
+    margin-top: 0px;
+    margin: auto;
+    width: 50%;
+    text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
+}
+
+.nossosValores{
+    color: rgba(85, 191, 176, 1);
+    font-size: 85px;
+    text-align: center;
+    margin-top: 10%
+}
+
+
+
+
+
+
+.conhecaGaby{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.imagemRedonda{
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 50%;
+    border: 5px solid rgb(163, 158, 158);
+    object-fit: cover;
+    transition: all 0.4s;
+}
+.imagemRedonda:hover{
+    transform: scale(1.02);
+    transition: all 0.4s;
+}
+.gabyParagrafo{
+    text-align: center;
+    text-justify: inter-word;
+    width: 100%;
+    font-size: 200%;
+    clear: both;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+
+.integrantesDesc{
+    width: 90%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.imagemRedonda2{
+    width: 350px;
+    height: 350px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(163, 158, 158);
+    object-fit: cover;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+
+.integrantesNome{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    margin: 0;
+}
+.integrantesParagrafo{
+    text-align: center;
+    text-justify: inter-word;
+    width: 100%;
+    font-size: 25px;
+    word-wrap: break-word;
+    margin: 0;
+}
+.integranteEspaco{
+    width: 550px;
+    height: 450px;
+    margin-top: 50px;
+
+}
+
+.parceriaIntermentes{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    margin-top: 90px;
+}
+.parceriaIntermentes img{
+    width: 650px;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+.parceriaParagrafo{
+    font-size: 32px;
+    clear: both;
+    text-align: center;
+    word-wrap: break-word;
+    text-justify: inter-word;
+    margin: auto;
+    margin-top: 330px;
+    width: 60%;
+    height: auto;
+}
+
+.conhecerIntermentes{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 120%);
+    font-size: 35px;
+    background-color: #B66FD8;
+    color: white;
+    padding: 3px 30px;
+    box-sizing: border-box;
+    border: 8px solid #FFC773;
+    border-radius: 10px 40px 10px 40px;
+    transition: all 0.5s;
+}
+.conhecerIntermentes:hover {
+    color: white;
+    border-radius: 40px 10px 40px 10px;
+    transition: all 0.5s;
+}
+
+.conteudoParceria{
+    display: flex;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .parte1 h3 {
+        font-size: 55px;
+        text-align: right;
+        padding-right: 23px;
+    }
+
+    .parte1 p {
+        width: auto;
+        font-size: 25px;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .parte1Direita {
+        width: 60%;
+        height: auto;
+    }
+
+    .parte1Esquerda {
+        width: 40%;
+        height: auto;
+    }
+
+    .parte2 {
+        background-color: rgba(242, 255, 250, 1);
+        width: 100%;
+        min-height: 400px;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .parte2Esquerda {
+        width: 100%;
+        height: 100%;
+    }
+    .parte2Direita img{
+        width: 90%;
+        height: 90%;
+        padding: 45px;
+        border-radius: 15%;
+    }
+
+    .parte2 h3{
+        font-size: 64px;
+        margin: 0px;
+    }
+    .parte2 p{
+        text-align: center;
+        text-justify: inter-word;
+        font-size: 28px;
+        margin-top: 0px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .nossosValores{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .conhecaGaby{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .imagemRedonda{
+        width: 350px;
+        height: 350px;
+        margin: 70px;
+    }
+    .imagemRedonda:hover{
+        transform: scale(1.02);
+        transition: all 0.4s;
+    }
+    .gabyParagrafo{
+        text-align: end;
+        text-justify: inter-word;
+        width: 100%;
+        font-size: 22px;
+        clear: both;
+        margin: 0;
+        margin-bottom: 70px;
+        margin-right: 20px;
+    }
+
+    .integrantesDesc{
+        width: 90%;
+        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .integrantesNome{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .parceriaIntermentes{
+        width: 100%;
+        height: 800px;
+        margin: 0;
+        margin-top: 90px;
+    }
+
+    .parceriaParagrafo{
+        font-size: 32px;
+        clear: both;
+        text-align: center;
+        word-wrap: break-word;
+        text-justify: inter-word;
+        margin: auto;
+        margin-top: 330px;
+        width: 90%;
+    }
+
+    .conhecerIntermentes{
+        position: absolute;
+        left: 50%;
+        font-size: 45px;
+        padding: 3px 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .parte1 {
+        flex-direction: column;
+    }
+
+    .parte1 h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .parte1 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .parte1Esquerda, .parte1Direita {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parte1Esquerda a {
+        margin: 20px auto;
+        width: 70%;
+        font-size: 30px;
+    }
+
+    .parte2Esquerda, .parte2Direita img {
+        width: 100%;
+        float: none;
+    }
+
+    .parte2 h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .parte2 p {
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .nossosValores {
+        font-size: 60px;
+    }
+
+    .imagemRedonda {
+        width: 300px;
+        height: 300px;
+        margin: 40px auto;
+    }
+
+    .gabyParagrafo {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .conhecaGaby{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .integrantesDesc{
+        width: 100%;
+        height:auto;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .integrantesNome {
+        font-size: 25px;
+    }
+
+    .parceriaParagrafo {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .conhecerIntermentes {
+        font-size: 30px;
+    }
+
+    .imagemRedonda2{
+        width: 350px;
+        height: 350px;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 50%;
+        border: 5px solid rgb(163, 158, 158);
+        object-fit: cover;
+        transition: all 0.4s;
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    .integranteEspaco{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+}

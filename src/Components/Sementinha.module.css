@@ -1,0 +1,647 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+.Packparte1 {
+    background-color: rgba(193, 217, 214, 1);
+    width: 100vw;
+    min-height: 300px;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    padding: 20px;
+}
+
+.Packparte1 h3 {
+    font-family: 'Poppins';
+    font-size: 58px;
+    margin-bottom: 0;
+    color: rgba(85, 191, 176, 1);
+    text-align: center;
+}
+
+.Packparte1 p {
+    text-align: center;
+    text-justify: inter-word;
+    width: 50%;
+    font-size: 200%;
+    clear: both;
+    margin: auto;
+}
+
+.Packparte2 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens flex sejam quebrados em várias linhas */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.backgroundPackparte2{
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    width: 1200px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: rotateBackground 150s linear infinite;
+}
+
+@keyframes rotateBackground {
+    from {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.filtrarStyle{
+    display: block;
+    width: 25%;
+    height: 80px;
+    margin-bottom: 20px; 
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(47, 142, 142, 1);
+    font-size: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 0px 90px 0px 90px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 1s;
+}
+.filtrarStyle:hover{
+    border-radius: 90px 0px 90px 0px;
+    transition: all 1s;
+    border: 5px solid rgba(47, 142, 142, 1);
+    background-color: #fff;
+    text-decoration: none;
+    color: rgba(47, 142, 142, 1);
+}
+
+
+
+.filtrar {
+    flex-shrink: 0;
+    width: 95vw;
+    height: 50px;
+    background-color: rgba(47, 142, 142, 1);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 50px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 90px 0px 90px 0px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 1s;
+}
+.filtrar:hover{
+    color: rgba(47, 142, 142, 1);
+    transition: all 1s;
+    border-radius: 0px 90px 0px 90px;
+}
+.filtrar a{
+    font-size: 165%;
+    font-weight: 450;
+    color: #fff;
+    transition: all 0.3s;
+}
+.filtrar a:hover{
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor:pointer;
+}
+.Packprofissional {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+.Packvids {
+    width: 480px;
+    height: 590px;
+    background-color: rgba(193, 217, 214, 1);
+    margin: 20px;
+    border-radius: 40px;
+    transition: transform 0.5s;
+    cursor:pointer;
+}
+
+.Packvids_nomeProfissional{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+.Packvids_especialidadeProfissional{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.Packvids_conhecerProfissional{
+    clear: both;
+    font-size: 50px;
+    font-weight: 60px;
+    box-sizing: border-box;
+    padding: 10px 60px;
+    margin-left: 55px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgba(47, 142, 142, 1);
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.4s;
+}
+.Packvids:hover .Packvids_conhecerProfissional{
+    color: rgba(47, 142, 142, 1);
+    background-color: rgba(193, 217, 214, 1);
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.4s;
+}
+
+#a{
+    background: url(./assets/Fisioterapia.svg) rgba(193, 217, 214, 1) no-repeat;
+}
+#b{
+    background: url(./assets/Fonoaudiologia.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#c{
+    background: url(./assets/Musicoterapia.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#d{
+    background: url(./assets/TerapiaOcupacional.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#e{
+    background: url(./assets/Psicologia.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#f{
+    background: url(./assets/Educacao.png) rgba(193, 217, 214, 1) no-repeat;
+}
+
+.maisVideos{
+    width: 480px;
+    height: 200px;
+    background-color: rgba(193, 217, 214, 1);
+    margin: 20px;
+    margin-top: 60px;
+    border-radius: 50px;
+    font-size: 28px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profissionalPerfil_Video{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-position: center 1px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+.Packparte1 {
+    background-color: rgba(193, 217, 214, 1);
+    width: 100vw;
+    min-height: 300px;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    padding: 20px;
+}
+
+.Packparte1 h3 {
+    font-family: 'Poppins';
+    font-size: 58px;
+    margin-bottom: 0;
+    color: rgba(85, 191, 176, 1);
+    text-align: center;
+}
+
+.Packparte1 p {
+    text-align: center;
+    text-justify: inter-word;
+    width: 50%;
+    font-size: 200%;
+    clear: both;
+    margin: auto;
+}
+
+.Packparte2 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens flex sejam quebrados em várias linhas */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.backgroundPackparte2{
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    width: 1200px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: rotateBackground 150s linear infinite;
+}
+
+@keyframes rotateBackground {
+    from {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.filtrarStyle{
+    display: block;
+    width: 25%;
+    height: 80px;
+    margin-bottom: 20px; 
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(47, 142, 142, 1);
+    font-size: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 0px 90px 0px 90px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 1s;
+}
+.filtrarStyle:hover{
+    border-radius: 90px 0px 90px 0px;
+    transition: all 1s;
+    border: 5px solid rgba(47, 142, 142, 1);
+    background-color: #fff;
+    text-decoration: none;
+    color: rgba(47, 142, 142, 1);
+}
+
+
+
+.filtrar {
+    flex-shrink: 0;
+    width: 95vw;
+    height: 50px;
+    background-color: rgba(47, 142, 142, 1);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 50px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 90px 0px 90px 0px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 1s;
+}
+.filtrar:hover{
+    color: rgba(47, 142, 142, 1);
+    transition: all 1s;
+    border-radius: 0px 90px 0px 90px;
+}
+.filtrar a{
+    font-size: 165%;
+    font-weight: 450;
+    color: #fff;
+    transition: all 0.3s;
+}
+.filtrar a:hover{
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor:pointer;
+}
+.Packprofissional {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+.Packvids {
+    width: 480px;
+    height: 590px;
+    background-color: rgba(193, 217, 214, 1);
+    margin: 20px;
+    border-radius: 40px;
+    transition: transform 0.5s;
+    cursor:pointer;
+}
+
+.Packvids_nomeProfissional{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+.Packvids_especialidadeProfissional{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.Packvids_conhecerProfissional{
+    clear: both;
+    font-size: 50px;
+    font-weight: 60px;
+    box-sizing: border-box;
+    padding: 10px 60px;
+    margin-left: 55px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgba(47, 142, 142, 1);
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.4s;
+}
+.Packvids:hover .Packvids_conhecerProfissional{
+    color: rgba(47, 142, 142, 1);
+    background-color: rgba(193, 217, 214, 1);
+    border: 5px solid rgba(47, 142, 142, 1);
+    transition: all 0.4s;
+}
+
+#a{
+    background: url(./assets/Fisioterapia.svg) rgba(193, 217, 214, 1) no-repeat;
+}
+#b{
+    background: url(./assets/Fonoaudiologia.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#c{
+    background: url(./assets/Musicoterapia.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#d{
+    background: url(./assets/TerapiaOcupacional.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#e{
+    background: url(./assets/Psicologia.png) rgba(193, 217, 214, 1) no-repeat;
+}
+#f{
+    background: url(./assets/Educacao.png) rgba(193, 217, 214, 1) no-repeat;
+}
+
+.maisVideos{
+    width: 480px;
+    height: 200px;
+    background-color: rgba(193, 217, 214, 1);
+    margin: 20px;
+    margin-top: 60px;
+    border-radius: 50px;
+    font-size: 28px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profissionalPerfil_Video{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-position: center 1px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 429px){
+    
+    .Packparte1 {
+
+        width: 93%;
+        min-height: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .Packparte1 h3 {
+        font-size: 28px;
+        margin:auto;
+    }
+    
+    .Packparte1 p {
+        width: 100%;
+        font-size: 25px;
+        margin: auto;
+    }
+    
+    .backgroundPackparte2{
+        width: 100%;
+    }
+    
+    .filtrar {
+        flex-shrink: 0;
+        width: 95vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtrar a{
+        font-size: 18px;
+    }
+
+    .Packprofissional {
+        border-radius: 50%;
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .Packvids {
+        width: 90%;
+        height: auto;
+        margin: 0px;
+        border-radius: 40px;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .Packvids_nomeProfissional{
+        font-size: 28px;
+    }
+
+    .Packvids_especialidadeProfissional{
+        font-size: 22px;
+    }
+
+    .Packvids_conhecerProfissional{
+        font-size: 20px;
+        box-sizing: border-box;
+        margin-left: 11%;
+        color: #fff;
+    }
+    
+    .maisVideos{
+        width: 100%;
+        height: auto;
+        margin: 10px, 0px, 0px, 0px;
+        font-size: 18px;
+        text-align: center;
+        padding: 25px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .Packparte1 {
+        width: 93%;
+        min-height: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .Packparte1 h3 {
+        font-size: 40px;
+        margin:auto;
+    }
+    
+    .Packparte1 p {
+        width: 100%;
+        font-size: 30px;
+        margin: auto;
+    }
+    
+    .backgroundPackparte2{
+        width: 100%;
+    }
+    
+    .filtrar {
+        flex-shrink: 0;
+        width: 95vw;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .filtrar a{
+        font-size: 28px;
+    }
+    
+}

@@ -1,0 +1,20 @@
+/* src/styles/Expression.module.css */
+.expressionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .expressionImage {
+    width: 320px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .expressionLabel {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,268 @@
+
+
+.footer_bolha{
+    width: 100%;
+    background: url(../assets/footer.svg);
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+}
+.footer_logo{
+    width: 300px;
+}
+
+
+.footer_esquerda{
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+.footer_esquerda1{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.footer_esquerda2{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.footer_esquerda3{
+    width: 50%;
+    height: 50%;
+    clear: both;
+    float: left;
+}
+.footer_esquerda4{
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.acesse_linktree{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 4px solid white;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    border-radius: 20px 0px 20px 0px;
+    transition: all 0.5s;
+}
+.acesse_linktree:hover{
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+    transition: all 0.5s;
+}
+.redes_sociais_footer{
+    width: 200px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.footer_direita{
+    width: 48%;
+    height: 100%;
+    float: right;
+}
+.footer_direita1{
+    position: relative;
+    width: 65%;
+    height: 78%;
+    margin: auto;
+    margin-top: 120px;
+}
+.footer_direita2{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: auto;
+}
+.footer_direita3{
+    position: relative;
+    width: 50%;
+    height: 73%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.footer_direita4{
+    position: relative;
+    width: 50%;
+    height: 73%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegue_h3{
+    color: white;
+    font-size: 28px
+}
+.listagem_footer{
+    color: white;
+    font-size: 20px;
+}
+.listagem_footer:hover{
+    color: white;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+
+    .footer_esquerda{
+        width: 48%;
+        height: 100%;
+        float: left;
+    }
+    .footer_esquerda1{
+        width: 50%;
+        height: 50%;
+        float: left;
+    }
+    .footer_esquerda2{
+        width: 50%;
+        height: 50%;
+        float: left;
+    }
+    .footer_esquerda3{
+        width: 50%;
+        height: 50%;
+        clear: both;
+        float: left;
+    }
+    .footer_esquerda4{
+        width: 50%;
+        height: 50%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .acesse_linktree{
+        position: relative;
+        color: white;
+        font-size: 30px;
+        width: 350px;
+        left: 80px;
+    }
+    .redes_sociais_footer{
+        position: relative;
+        width: 190px;
+        left: 160px;
+    }
+    
+    .footer_direita{
+        display: none;
+    }
+    .footer_direita1{
+        display: none;
+    }
+    .footer_direita2{
+        display: none;
+    }
+    .footer_direita3{
+        display: none;
+    }
+    .footer_direita4{
+        display: none;
+    }
+    
+    .navegue_h3{
+        display: none;
+    }
+    .listagem_footer{
+        display: none;
+    }
+    .footer_logo{
+        width: 200px;
+        margin: auto;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+    .footer_bolha{
+        width: 100%;
+        background: url(../assets/footer.svg);
+        background-size: cover;
+        height: 500px;
+        margin: 0;
+    }
+    
+    
+    .footer_esquerda{
+        width: 48%;
+        height: 100%;
+        float: left;
+    }
+    .footer_esquerda1{
+        width: 50%;
+        height: 50%;
+        float: left;
+    }
+    .footer_esquerda2{
+        width: 50%;
+        height: 50%;
+        float: left;
+    }
+    .footer_esquerda3{
+        width: 50%;
+        height: 50%;
+        clear: both;
+        float: left;
+    }
+    .footer_esquerda4{
+        width: 50%;
+        height: 50%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .acesse_linktree{
+        position: relative;
+        color: white;
+        font-size: 20px;
+        width: 250px;
+        right: 25px;
+    }
+    .redes_sociais_footer{
+        display: none;
+    }
+    
+    .footer_direita{
+        display: none;
+    }
+    .footer_direita1{
+        display: none;
+    }
+    .footer_direita2{
+        display: none;
+    }
+    .footer_direita3{
+        display: none;
+    }
+    .footer_direita4{
+        display: none;
+    }
+    
+    .navegue_h3{
+        display: none;
+    }
+    .listagem_footer{
+        display: none;
+    }
+    .footer_logo{
+        width: 200px;
+        margin: auto;
+    }
+}
+
+
+

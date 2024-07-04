@@ -1,0 +1,38 @@
+/* src/styles/ExpressionMirror.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f8ff;
+    background-image: url('../assets/Registrar-se.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .nextButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .nextButton:hover {
+    background-color: #45a049;
+  }
+  

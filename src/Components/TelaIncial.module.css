@@ -1,0 +1,1355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.parte1 {
+    background-color: rgba(193, 217, 214, 1);
+    width: 100%;
+    min-height: 480px;
+    height: auto;
+    overflow: hidden;
+}
+
+.parte1 h3 {
+    font-family: 'Poppins';
+    font-size: 58px;
+    margin-top: 70px;
+    margin-right: 40px;
+    margin-bottom: 0;
+    color: rgba(18, 113, 84, 1);
+}
+
+.parte1 p {
+    text-align: right;
+    text-justify: inter-word;
+    width: 90%;
+    margin-right: 40px;
+    float: right;
+    font-size: 200%;
+    clear: both;
+}
+
+
+
+
+.parte1Direita {
+    width: 55%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+.parte1Esquerda {
+
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: start;
+}
+
+.parte1Esquerda a {
+    clear: both;
+    display: block;
+    margin-left: 40px;
+    font-size: 40px;
+    border: 5px solid rgba(47, 142, 142, 1);
+    background-color: rgba(47, 142, 142, 1);
+    border-radius: 0px 40px 40px 40px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+.parte1Esquerda a:hover {
+    border: 5px solid rgba(47, 142, 142, 1);
+    background-color: rgba(193, 217, 214, 1);
+    border-radius: 0px 40px 40px 40px;
+    width: 90%;
+    text-align: center;
+    color: rgba(47, 142, 142, 1);
+    transition: all 1s;
+}
+
+
+
+
+
+
+.parte2 {
+    background-color: rgba(242, 255, 250, 1);
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+.parte2Esquerda {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.parte2Direita{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.parte2 h3{
+    color: rgba(18, 113, 84, 1);
+    font-size: 64px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.parte2 p{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 28px;
+    margin-top: 0px;
+    margin: auto;
+    width: 50%;
+    text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+.parte2 img {
+    display: none;
+}
+.pacesAnimado {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    float: left;
+    }
+}
+@media (min-width: 900px) {
+    .parte2 img {
+        max-width: 100%;
+        height: 100%;
+        float: right;
+        object-fit: cover;
+        display: block;
+    }
+    .pacesAnimado {
+        width: 550px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        float: left;
+        display: block;
+        }
+    }
+
+
+.parte3{
+    width: 100%;
+    height: auto;
+    background-color:  rgba(193, 217, 214, 1);
+    float: left;
+    display: flex;
+}
+.parte3Esquerda{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.parte3Direita{
+    background-color: rgba(242, 255, 250, 1);
+    width: 40%;
+    height: auto;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.pacesAnimado2{
+    width: 400px;
+    float: left;
+    margin-left: 65px;
+}
+.parte3Esquerda h3{
+    color:rgba(57, 141, 141, 1);
+    clear: both;
+    font-size: 85px;
+    margin: 0;
+    margin-left: 115px;
+}
+
+.parte3Direita h3{
+    color: rgba(18, 113, 84, 1);
+    font-size: 64px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.parte3Direita p{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 28px;
+    margin-top: 0px;
+    margin: auto;
+    width: 90%;
+    text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
+}
+#sementinhas{
+    text-align: right;
+}
+#girassol{
+    text-align: left;
+}
+
+.parte4{
+    background: url(../assets/bolha.svg) no-repeat;
+    height: 1950px;
+    clear: both;
+}
+.bolha{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+
+.parte4 h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+    width: 50%;
+    margin: auto;
+    font-weight: 600;
+}
+
+.pacotes{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pacoteMundos{
+    background-color: #c3cccb;
+    width: 485px;
+    height: 100%;
+    border-radius: 70px;
+    box-shadow: black 10px 10px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all 1s;
+    cursor:pointer;
+    margin-top: 50px;
+}
+.pacoteMundos:hover{
+    transform: scale(1.06);
+    transition: all 1s;
+    border-radius: 50px;
+}
+.pacoteMundos:hover a{
+    color: rgba(47, 142, 142, 1);
+    background-color: #c3cccb;
+    border-radius: 70px;
+}
+.pacoteMundos a{
+    clear: both;
+    display: block;
+    font-size: 40px;
+    border: 0px solid rgba(47, 142, 142, 1);
+    background-color: rgba(47, 142, 142, 1);
+    border-radius: 0px 0px 70px 70px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    transition: all 1s;
+    margin-top: auto;
+    padding: 15px 0px;
+}
+.pacoteMundos h3{
+    width: 100%;
+    color: rgba(18, 113, 84, 1);
+    line-height: 1.2;
+    font-size: 60px;
+}
+.gaby2{
+    margin: 0 20% 0 20%;
+    width: 70%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.parte5{
+    clear: both;
+    margin-top: 170px;
+}
+.parte5 h3{
+    color: rgba(85, 191, 176, 1);
+    font-size: 85px;
+}
+
+.parte5 p{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 28px;
+    margin-top: 0px;
+    margin: auto;
+    width: 30%;
+    text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
+}
+
+.parte5 article video{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.parte5 article div{
+    width: 300px;
+    height: auto;
+}
+
+.botaoContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os botões */
+    margin-bottom: 20px; /* Espaço inferior dos botões */
+}
+.botao {
+    font-size: 2vw;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    width: 20%;
+    border-radius: 1.2vw;
+    border: 4px solid rgba(47, 142, 142, 1);
+    box-sizing: border-box;
+    padding: 3px;
+    background-color: rgba(47, 142, 142, 1);
+    transition: all 0.5s;
+    margin-top: 50px;
+}
+
+.botao:hover {
+    color: rgba(47, 142, 142, 1);
+    background-color: white;
+    width: 22%;
+}
+
+.botao.active {
+    color: rgba(47, 142, 142, 1);
+    background-color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+article div {
+    background-color: rgba(193, 210, 204, 1);
+    width: 28%;
+    height: 18vw;
+    border-radius: 2.5vw;
+    margin-top: 50px;
+}
+.parte6 article div {
+    background-color:rgba(0, 170, 170, 1) !important;
+    width: 28%;
+    height: 18vw;
+    border-radius: 2.5vw;
+    margin-top: 50px;
+}
+
+.parte6{
+    width: 100%;
+    height: 850px;
+    background-color: rgba(0, 170, 170, 1);
+}
+.parte6 h3{
+    margin-top: 0;
+    margin: auto;
+    color: rgba(230, 255, 199, 1);
+    font-size: 75px;
+    text-align: center;
+    font-weight: 600;
+    width: 50%;
+    line-height: 1.1;
+}
+.parte6 p{
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.valores h3 {
+    position: relative;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: rgba(85, 191, 176, 1);
+}
+.valores p {
+    position: relative;
+    bottom: 5vw;
+    text-align: center;
+    font-size: 2vw;
+    color: rgba(74, 74, 74, 1);
+}
+.parte7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: 550;
+}
+.parte7 h3{
+    font-size: 2.4vw;
+    font-weight: 600;
+}
+.parte7 img{
+    width: 11vw;
+}
+.coluna {
+    background-color: rgba(191, 191, 191, 1);
+    height: 32vw;
+    width: 0.4vw;
+    border-radius: 20px;
+    position: relative;
+}
+
+.nossosValores{
+    color: rgba(85, 191, 176, 1);
+    font-size: 85px;
+    text-align: center;
+    margin: 0;
+}
+.principaisVideos{
+        text-align: center;
+        text-justify: inter-word;
+        font-size: 28px;
+        margin-top: 0px;
+        margin: auto;
+        margin-bottom: 80px;
+        width: 30%;
+        text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
+}
+
+header {
+    background-color: #f0f8f7;
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1800px;
+    position: relative;
+}
+
+.logo img {
+    position: relative;
+    float: left;
+    height: 7vw;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10vw;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-opc {
+    display: flex;
+    gap: 5vw;
+}
+
+.nav-links li {
+    display: inline;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #317773;
+    font-weight: 500;
+    font-size: 1.7vw;
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    right: 0;
+    background: #317773;
+    transition: width 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    color: #055052;
+    transform: translateY(-3px);
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #055052;
+}
+
+.nav-links a.active {
+    margin-top: 0px;
+    border-bottom: 5px solid #5fa6a2;
+    transition: margin-top 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-links a.active:hover::after {
+    width: 0;
+    background-color: #406e69;
+}
+
+
+.register-button {
+    background-color: #317773;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 1.5vw;
+}
+
+.register-button:hover {
+    background-color: #055052;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #317773;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+.login-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5vw !important;
+}
+
+.login-buttons a {
+    padding: 1px 15px;
+}
+
+.login-buttons a:hover {
+    background-color: #d0dad9;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    ;
+}
+
+.login-buttons a.active {
+    border: initial;
+    background-color: #c3cccb;
+    border-radius: 15px;
+}
+
+@media (max-width: 800px) {
+    .logo img {
+        height: 80px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        background-color: #f0f8f7ea;
+        position: absolute;
+        top: 115px;
+        left: -110%;
+        width: 100%;
+        text-align: center;
+        transition: all 0.3s ease;
+        border-radius: 20px;
+    }
+
+    #nav-opc {
+        display: block;
+        flex: none;
+    }
+
+    .nav-links a {
+        font-size: 28px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 20px 0px;
+    }
+
+    nav.active .nav-links,
+    nav.active {
+        left: 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .login-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-buttons a {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .parte1{
+        height: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .parte1Direita{
+        width: 50%;
+        height: 685px;
+        font-size: 13px;
+    }
+
+    .pacesAnimado{
+        width: 320px;
+        margin-top: 200px;
+    }
+
+    .parte1 a{
+        width: 280px;
+        height: 95px;
+        margin-left: none;
+        font-size: 30px;
+        margin-top: 40px;
+        
+    }
+
+    .parte1Esquerda{
+       width: 50%;
+       height: 800px;
+       font-size: 18px;
+    }
+
+    .parte2 {
+        height: 870px;
+        width: 100%;
+        padding-top: 60px;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .parte2Esquerda {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .parte2Esquerda h3 {
+        font-size: 45px;
+        margin: 0;
+    }
+    
+    .parte2Esquerda p {
+        font-size: 30px;
+        margin: 10px 0 0 0;
+    }
+
+    .parte2Direita{
+        width: 100%;
+        height: 800px;
+        
+    }
+
+    .parte2Direita img{
+        display: flex;
+        height: 500px; 
+        width: 100%;
+    }
+
+    .parte3{
+        text-align: justify;  
+        height: 680px;
+      }
+  
+      .parte3Esquerda{
+         display: none;
+  
+      }
+      .parte3Direita{
+          width: 100%;
+          height: 600px;
+          padding: 40px;
+      }
+  
+      .parte3Direita h3{
+          font-size: 50px;
+      }
+  
+      .parte3Direita p{
+          font-size: 24px;
+      }
+  
+      #sementinhas{
+          text-align: center;
+      }
+  
+      #girassol{
+          text-align: center;
+      }
+      
+      .pacotes{
+        width: 100%;
+        height: 35%;
+    }
+
+    .pacoteMundos{
+        width: 320px;
+        height: 450px;
+        align-items: center;
+    }
+
+    .pacoteMundos img{
+        height: 230px;
+        margin-bottom: 10px;
+    }
+
+    .pacoteMundos h3{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .parte4 {
+        width: 100%;
+        height: 1900px;
+
+    }
+
+    .parte4 h3{
+        font-size: 40px;
+        padding-top: 80px;
+    }
+
+    .parte5{
+        height: 1500px;
+        margin-top: 30px;
+    }
+
+    .parte5 button{
+        width: 280px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .parte5 div{
+        height: 230px;
+    }
+
+    .parte6{
+        text-align: center;
+        width: 100%;
+        height: 800px;
+        margin-top: 0px;
+    }
+
+    .parte6 h3{
+        font-size: 60px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .parte6 p{
+        font-size: 25px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .parte6 div{
+        height: 230px;
+    }
+
+    .nossosValores{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .parte7 h3{
+        display: none;
+    }
+
+    .principaisVideos{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 35px;
+        width: 50%;
+    }
+
+    .parte7 p{
+        font-size: 20px;
+    }
+
+}
+
+
+
+/* ------------ Fim Tablet ------------*/
+
+/*----------- Inicio Smartphone 2 ------------*/
+
+@media only screen and (min-width: 360px) and (max-width: 391px){
+
+
+    .parte1{
+        width: 100%;
+        height: 650px;
+        min-height: 650px;
+    }
+
+    .pacesAnimado{
+        width: 200px;
+        height: 150px;
+    }
+
+    .parte1 a{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 80px;
+    }
+
+    .parte1Esquerda{
+        width: 100%;
+        height: 350px;
+    }
+
+    .parte1Direita{
+        width: 100%;
+        height: 400px;
+        float: none;
+        text-align: center;
+    }
+
+    .parte1Direita p, .parte1Direita h3{
+        font-size: 21px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .parte2 {
+        height: 540px;
+        width: 100%;
+        padding-top: 60px;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .parte2Esquerda {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .parte2Esquerda h3 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .parte2Esquerda p {
+        font-size: 20px;
+        margin: 10px 0 0 0;
+    }
+
+    .parte2Direita{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .parte2Direita img{
+        display: flex;
+        height: auto; 
+        width: 100%;
+    }
+
+    .parte3{
+        text-align: justify;  
+        height: 600px;
+      }
+  
+      .parte3Esquerda{
+         display: none;
+  
+      }
+
+      .parte3Direita{
+          width: 100%;
+          height: 600px;
+          padding: 40px;
+      }
+  
+      .parte3Direita h3{
+          font-size: 28px;
+      }
+  
+      .parte3Direita p{
+          font-size: 20px;
+      }
+  
+      #sementinhas{
+          text-align: center;
+      }
+  
+      #girassol{
+          text-align: center;
+      }
+
+      .parte4 {
+        width: 100%;
+        height:auto;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+        margin: auto;
+
+    }
+
+        .parte4 h3{
+            font-size: 28px;
+            margin: auto;
+            width: 90%; 
+        }
+
+      .pacotes{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .pacoteMundos{
+        width: 230px;
+        height: 300px;
+        align-items: center;
+        
+    }
+
+    .pacoteMundos img{
+        height: 150px;
+        width: 170px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .pacoteMundos h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .pacoteMundos a{
+        font-size: 15px;
+    }
+
+    .parte5 p{
+        font-size: 20px
+    }
+
+    .parte5{
+        height: 900px;
+        margin-top: 100px;
+    }
+
+    .parte5 button{
+        width: 120px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .parte5 article{
+        flex-direction: column;
+        height: 550px;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    .parte5 article div{
+        width: 180px;
+        height: 130px;
+    }
+
+    .parte6{
+        text-align: center;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .parte6 h3{
+        font-size: 30px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .parte6 p{
+        font-size: 20px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .parte6 article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        justify-content: center;
+        width: 100%;
+    }
+    .parte6 article div{
+        width: auto;
+        height: 130px;
+    }
+
+    .nossosValores{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .parte7 h3{
+        display: none;
+    }
+
+    .principaisVideos{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .coluna {
+        background-color: rgba(191, 191, 191, 1);
+        height: 50vw;
+        width: 0.8vw;
+        border-radius: 20px;
+        position: relative;
+        margin: 4px 4px 4px 4px;
+    }
+
+    .parte7 p{
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+
+/*------------------ Fim Smratphone 2 ----------------*/
+
+/*--------------------Inicio Smartphone 1 ----------------*/
+
+@media only screen and (min-width: 391px) and (max-width: 428px){
+
+    .parte1{
+        width: 100%;
+        height: 700px;
+        min-height: 650px;
+    }
+
+    .pacesAnimado{
+        width: 230px;
+        height: 150px;
+    }
+
+    .parte1 a{
+        width: 230px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 120px;
+    }
+
+    .parte1Esquerda{
+        width: 100%;
+        height: 350px;
+    }
+
+    .parte1Direita{
+        width: 100%;
+        height: 450px;
+        float: none;
+        text-align: center;
+    }
+
+    .parte1Direita p, .parte1Direita h3{
+        font-size: 23px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .parte2 {
+        height: 540px;
+        width: 100%;
+        padding-top: 60px;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .parte2Esquerda {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .parte2Esquerda h3 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .parte2Esquerda p {
+        font-size: 20px;
+        margin: 10px 0 0 0;
+    }
+
+    .parte2Direita{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .parte2Direita img{
+        display: flex;
+        height: auto; 
+        width: 100%;
+    }
+
+    .parte3{
+        text-align: justify;  
+        height: 600px;
+      }
+  
+      .parte3Esquerda{
+         display: none;
+  
+      }
+
+      .parte3Direita{
+          width: 100%;
+          height: 600px;
+          padding: 40px;
+      }
+  
+      .parte3Direita h3{
+          font-size: 28px;
+      }
+  
+      .parte3Direita p{
+          font-size: 20px;
+      }
+  
+    
+      #sementinhas{
+        text-align: center;
+    }
+
+    #girassol{
+        text-align: center;
+    }
+
+    .parte4 {
+      width: 100%;
+      height:auto;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 100px;
+      margin: auto;
+
+  }
+
+      .parte4 h3{
+          font-size: 30px;
+          margin: auto;
+          width: 90%; 
+      }
+
+    .pacotes{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+
+  }
+
+  .pacoteMundos{
+      width: 250px;
+      height: 320px;
+      align-items: center;
+      
+  }
+
+  .pacoteMundos img{
+      height: 150px;
+      width: 170px;
+      object-fit: cover;
+      border-radius: 30px;
+  }
+
+  .pacoteMundos h3{
+      font-size: 25px;
+      margin-bottom: 15px;
+  }
+
+  .pacoteMundos a{
+      font-size: 25px;
+  }
+    
+  
+  .parte5 p{
+    font-size: 25px
+}
+
+.parte5{
+    height: 900px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.parte5 button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.parte5 article{
+    flex-direction: column;
+    height: 550px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.parte5 article div{
+    width: 180px;
+    height: 130px;
+}
+
+.parte6{
+    text-align: center;
+    width: 100%;
+    height: 1080px;
+}
+
+.parte6 h3{
+    font-size: 35px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.parte6 p{
+    font-size: 24px;
+    width: 55%;
+    margin-left: 25%;
+}
+
+.parte6 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.parte6 article div{
+    width: auto;
+    height: 130px;
+
+}
+
+.nossosValores{
+    font-size: 35px;
+    margin-top: 80px;
+}
+
+.parte7 h3{
+    display: none;
+}
+
+.principaisVideos{
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+}
+
+.coluna {
+    background-color: rgba(191, 191, 191, 1);
+    height: 70vw;
+    width: 0.8vw;
+    border-radius: 20px;
+    position: relative;
+    margin: 4px 4px 4px 4px;
+}
+
+.parte7 p{
+    font-size: 15px;
+    text-align: center;
+    width: 95%;
+}
+
+}
